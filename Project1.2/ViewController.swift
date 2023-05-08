@@ -17,7 +17,12 @@ class ViewController: UITableViewController {
         title = "Storm Viewer"
         navigationController?.navigationBar.prefersLargeTitles = true
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .action, target: self, action: #selector(recommend))
-                
+        
+        performSelector(inBackground: #selector(loadPictures), with: nil)
+    }
+    
+    
+    @objc func loadPictures() {
         let fm = FileManager.default
         let path = Bundle.main.resourcePath!
         let items = try! fm.contentsOfDirectory(atPath: path)
@@ -26,8 +31,13 @@ class ViewController: UITableViewController {
             if item.hasPrefix("nssl") {
                 pictures.append(item)
             }
+            
+            sortedPictures = pictures.sorted()
         }
-        sortedPictures = pictures.sorted()
+        
+        DispatchQueue.main.async {
+            self.tableView.reloadData()
+        }
     }
 
     
