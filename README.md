@@ -20,7 +20,9 @@ Day 18:
 
 ## Screenshots
 
-![Simulator Screenshot - iPhone 14 Pro - 2023-05-09 at 13 17 09](https://github.com/vogtmano/Project-1/assets/92689831/1cfbd659-2d3d-40d1-8347-5994fec772e6)
-![Simulator Screenshot - iPhone 14 Pro - 2023-05-09 at 13 17 15](https://github.com/vogtmano/Project-1/assets/92689831/78efd7a5-bcd0-4827-966a-2aa3d9ecf67e)
-![Simulator Screenshot - iPhone 14 Pro - 2023-05-09 at 13 17 37](https://github.com/vogtmano/Project-1/assets/92689831/bf7538d0-2183-40af-b557-254625f4b081)
+<img src="https://github.com/vogtmano/Project-1/assets/92689831/1cfbd659-2d3d-40d1-8347-5994fec772e6" width=350 height=550>
+
+<img src="https://github.com/vogtmano/Project-1/assets/92689831/78efd7a5-bcd0-4827-966a-2aa3d9ecf67e" width=350 height=550>
+
+<img src="https://github.com/vogtmano/Project-1/assets/92689831/bf7538d0-2183-40af-b557-254625f4b081" width=350 height=550>
 
